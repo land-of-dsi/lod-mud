@@ -16,7 +16,7 @@ async function prompt() {
   });
 
   return new Promise((resolve, reject) => {
-    rl.question('Do you want to install the example bundles? [Y/n] ', resolve);
+    rl.question('Do you want to install the Land of DSI bundles? [Y/n] ', resolve);
   });
 }
 
@@ -33,26 +33,26 @@ async function main() {
     process.exit(0);
   }
 
-  const githubPath = 'https://github.com/ranviermud/';
+  const githubPath = 'https://github.com/land-of-dsi/';
   const defaultBundles = [
-    'https://github.com/RanvierMUD/bundle-example-areas',
-    'https://github.com/RanvierMUD/bundle-example-channels',
-    'https://github.com/RanvierMUD/bundle-example-classes',
-    'https://github.com/RanvierMUD/bundle-example-combat',
-    'https://github.com/RanvierMUD/bundle-example-commands',
-    'https://github.com/RanvierMUD/bundle-example-debug',
-    'https://github.com/RanvierMUD/bundle-example-effects',
-    'https://github.com/RanvierMUD/bundle-example-input-events',
-    'https://github.com/RanvierMUD/bundle-example-lib',
-    'https://github.com/RanvierMUD/bundle-example-npc-behaviors',
-    'https://github.com/RanvierMUD/bundle-example-player-events',
-    'https://github.com/RanvierMUD/bundle-example-quests',
-    'https://github.com/RanvierMUD/simple-crafting',
-    'https://github.com/RanvierMUD/vendor-npcs',
-    'https://github.com/RanvierMUD/player-groups',
-    'https://github.com/RanvierMUD/progressive-respawn',
-    'https://github.com/RanvierMUD/telnet-networking',
-    'https://github.com/RanvierMUD/websocket-networking',
+    'https://github.com/land-of-dsi/lod-areas',
+    'https://github.com/land-of-dsi/lod-channels',
+    'https://github.com/land-of-dsi/lod-classes',
+    'https://github.com/land-of-dsi/lod-combat',
+    'https://github.com/land-of-dsi/lod-commands',
+    'https://github.com/land-of-dsi/lod-debug',
+    'https://github.com/land-of-dsi/lod-effects',
+    'https://github.com/land-of-dsi/lod-input-events',
+    'https://github.com/land-of-dsi/lod-lib',
+    'https://github.com/land-of-dsi/lod-npc-behaviors',
+    'https://github.com/land-of-dsi/lod-player-events',
+    'https://github.com/land-of-dsi/lod-quests',
+    'https://github.com/land-of-dsi/lod-crafting',
+    'https://github.com/land-of-dsi/lod-vendor-npcs',
+    'https://github.com/land-of-dsi/lod-player-groups',
+    'https://github.com/land-of-dsi/lod-progressive-respawn',
+    'https://github.com/land-of-dsi/lod-telnet-networking',
+    'https://github.com/land-of-dsi/lod-websocket-networking',
   ];
   const enabledBundles = [];
 
@@ -85,7 +85,7 @@ run the following commands:
 
   git commit -m "Install bundles"
 
-You're all set! See https://ranviermud.com for guides and API references
+You've installed the Land of DSI bundles! See https://ranviermud.com for guides and engine and API references
 `);
 
   process.exit(0);
