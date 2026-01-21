@@ -1,0 +1,54 @@
+[submodule "bundles/lod-areas"]
+	path = bundles/lod-areas
+	url = https://github.com/land-of-dsi/lod-areas
+[submodule "bundles/lod-channels"]
+	path = bundles/lod-channels
+	url = https://github.com/land-of-dsi/lod-channels
+[submodule "bundles/lod-classes"]
+	path = bundles/lod-classes
+	url = https://github.com/land-of-dsi/lod-classes
+[submodule "bundles/lod-combat"]
+	path = bundles/lod-combat
+	url = https://github.com/land-of-dsi/lod-combat
+[submodule "bundles/lod-commands"]
+	path = bundles/lod-commands
+	url = https://github.com/land-of-dsi/lod-commands
+[submodule "bundles/lod-debug"]
+	path = bundles/lod-debug
+	url = https://github.com/land-of-dsi/lod-debug
+[submodule "bundles/lod-effects"]
+	path = bundles/lod-effects
+	url = https://github.com/land-of-dsi/lod-effects
+[submodule "bundles/lod-input-events"]
+	path = bundles/lod-input-events
+	url = https://github.com/land-of-dsi/lod-input-events
+[submodule "bundles/lod-lib"]
+	path = bundles/lod-lib
+	url = https://github.com/land-of-dsi/lod-lib
+[submodule "bundles/lod-npc-behaviors"]
+	path = bundles/lod-npc-behaviors
+	url = https://github.com/land-of-dsi/lod-npc-behaviors
+[submodule "bundles/lod-player-events"]
+	path = bundles/lod-player-events
+	url = https://github.com/land-of-dsi/lod-player-events
+[submodule "bundles/lod-quests"]
+	path = bundles/lod-quests
+	url = https://github.com/land-of-dsi/lod-quests
+[submodule "bundles/lod-crafting"]
+	path = bundles/lod-crafting
+	url = https://github.com/land-of-dsi/lod-crafting
+[submodule "bundles/lod-vendor-npcs"]
+	path = bundles/lod-vendor-npcs
+	url = https://github.com/land-of-dsi/lod-vendor-npcs
+[submodule "bundles/lod-player-groups"]
+	path = bundles/lod-player-groups
+	url = https://github.com/land-of-dsi/lod-player-groups
+[submodule "bundles/lod-progressive-respawn"]
+	path = bundles/lod-progressive-respawn
+	url = https://github.com/land-of-dsi/lod-progressive-respawn
+[submodule "bundles/lod-telnet-networking"]
+	path = bundles/lod-telnet-networking
+	url = https://github.com/land-of-dsi/lod-telnet-networking
+[submodule "bundles/lod-websocket-networking"]
+	path = bundles/lod-websocket-networking
+	url = https://github.com/land-of-dsi/lod-websocket-networking

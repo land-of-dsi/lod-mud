@@ -1,6 +1,24 @@
 {
   "port": 4000,
   "bundles": [
+    "lod-areas",
+    "lod-channels",
+    "lod-classes",
+    "lod-combat",
+    "lod-commands",
+    "lod-debug",
+    "lod-effects",
+    "lod-input-events",
+    "lod-lib",
+    "lod-npc-behaviors",
+    "lod-player-events",
+    "lod-quests",
+    "lod-crafting",
+    "lod-vendor-npcs",
+    "lod-player-groups",
+    "lod-progressive-respawn",
+    "lod-telnet-networking",
+    "lod-websocket-networking"
   ],
   "dataSources": {
     "YamlArea": {
